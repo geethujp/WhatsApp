@@ -27,7 +27,7 @@ var ChatForm = Backbone.View.extend({
         var seconds     = time.getSeconds() < 10 ? "0" + time.getSeconds() : time.getSeconds();
         
         var currenttime = hours + ":" + minutes + ":" + seconds + " " + am_pm; 
-        var currentdate = date.getDate() + '/' + (date.getMonth() + 1) + '/' + date.getFullYear();
+        var currentdate = time.getDate() + '/' + (time.getMonth() + 1) + '/' + time.getFullYear();
         console.log(currentdate);
 
         this.allData.add({

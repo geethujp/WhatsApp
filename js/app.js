@@ -50,9 +50,9 @@ var allData = new ChatCollection ([{
 
 allData.add(data);
 
-// var root = new Root({
-//     "users"  : users,
-//     "chats": chats,
-//     "allData" : allData
-// });
-// root.render();
+var root = new Root({
+    "users"   : users,
+    "messages": messages,
+    "allData" : allData
+});
+root.render();

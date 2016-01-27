@@ -16,11 +16,10 @@ var Root = Backbone.View.extend({
             "users"     : users,
             "messages"  : messages,
         });
-        var textarea    = new TextArea();
-        
+           
         this.$el.append(chatForm.render().el);
         this.$el.append(chatList.render().el);
-        this.$el.append(textarea.render().el);
-        return this;
+        console.log(chatList.render().el);
+        // return this;
     }
 });
