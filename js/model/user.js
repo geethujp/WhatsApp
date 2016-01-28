@@ -3,7 +3,7 @@ var UserModel = Backbone.Model.extend ({
 		'id' 		: '',
 		'name'		: '',
 		'last_seen'	: '',
-		'image'		: '',
+		'user_image': '',
 		'status'	: '',
 		'online'	: ''
 	}

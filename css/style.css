@@ -1,0 +1,32 @@
+ body{
+ 	background-color: #dfdfdf;
+ 	padding:0;
+ 	margin: 0;
+ 	font-family: Lucida Grande;
+ }
+ li {
+ 	list-style-type: none;
+ 	padding:5px;
+ 	line-height: 1.2em;
+ 	background-color: #fff;
+ 	font-family: Lucida Grande;
+ }
+ .contactList
+ {
+ 	width: 300px;
+ 	box-shadow: 5px 5px 5px #888888;
+ }
+ #header
+ {
+    z-index: -1;
+    background-color: #009688;
+    height: 100px;
+
+ }
+ #root
+ {
+ 	margin:25px;
+ 	background-color:#dfdfdf; 
+ 	box-shadow: 5px 5px 5px #888888;
+ }
+

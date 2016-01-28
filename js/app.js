@@ -10,17 +10,58 @@ var users       = new UserCollection ([{
     'id'            : 1,
     'name'          : 'Geethu',           
     'last_seen'     : currenttime,
-    'user_image'    : '',
+    'user_image'    : '../images/geethu.jpg',
     'status'        : 'Not everything is as it seems',
     'online'        : 'false'
 }, {
     'id'            : 2,
-    'name'          : 'Tiya',
+    'name'          : 'Dan',
     'last_seen'     : currenttime,
-    'user_image'    : '',
+    'user_image'    : '../images/dan.jpg',
     'status'        : 'Life is a chaos',
     'online'        : 'false'
-}]);
+},
+{
+    'id'            : 3,
+    'name'          : 'Hawari',
+    'last_seen'     : currenttime,
+    'user_image'    : '../images/hawari.jpg',
+    'status'        : 'chicken Pox.',
+    'online'        : 'false'
+},
+{
+    'id'            : 4,
+    'name'          : 'Rohith',
+    'last_seen'     : currenttime,
+    'user_image'    : '../images/kp.jpg',
+    'status'        : 'All is well',
+    'online'        : 'false'
+},
+{
+    'id'            : 5,
+    'name'          : 'Elizabeth',
+    'last_seen'     : currenttime,
+    'user_image'    : '../images/eli.jpg',
+    'status'        : 'Shut up and show me the code',
+    'online'        : 'false'
+},
+{
+    'id'            : 6,
+    'name'          : 'Mahima',
+    'last_seen'     : currenttime,
+    'user_image'    : '../images/mahi.jpg',
+    'status'        : 'Happiness',
+    'online'        : 'false'
+},
+{
+    'id'            : 7,
+    'name'          : 'Akshaya',
+    'last_seen'     : currenttime,
+    'user_image'    : '../images/aks.jpg',
+    'status'        : 'Nothing feels as good as being healthy',
+    'online'        : 'false'
+}
+]);
 
 var messages    = new MessageCollection ([{
     'id'        : 1,
